@@ -1,0 +1,21 @@
+JavaScript: All you need to know
+
+1. Programming basic
+2. Logic and conditions
+3. Loops and repetition
+4. Handling string
+5. Arrays
+6. Objects
+7. Function
+8. Functional programming
+9. Scope and closure
+10. OOP Introduction
+11. Prototype
+12. Prototypical inheritance
+13. ES6
+14. Error handling
+15. Asynchronous programing
+16. DOM
+17. Project
+18. JavaScript libraries
+19. Future roadmap

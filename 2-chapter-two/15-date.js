@@ -1,4 +1,5 @@
 // Date in JS: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
+
 var date = new Date()
 console.log(date.toDateString())
 console.log(date.toTimeString())

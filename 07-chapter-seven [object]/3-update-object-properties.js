@@ -14,3 +14,7 @@ point['y'] = 100
 var prop = 'z'
 point[prop] = 55
 console.log(point)
+
+// Remove Object Properties
+delete point.a
+console.log(point)

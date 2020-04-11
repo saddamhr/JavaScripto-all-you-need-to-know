@@ -11,13 +11,21 @@
 // }
 
 // when that function executing outside it's lexical scope.
-function test() {
-    var msg = 'I\'m learning lexical scope and closure'
+// function test() {
+//     var msg = 'I\'m learning lexical scope and closure'
     
-    return function() {
-        console.log(msg)
-    }
-}
+//     return function() {
+//         console.log(msg)
+//     }
+// }
 
-var sayMsg = test()
-sayMsg()
+// var sayMsg = test()
+// sayMsg()
+
+for(var i = 1; i<= 5; i++) {
+    (function(n){
+        setTimeout(function(){
+            console.log(n)
+        }, 1000 * i)
+    })(i)
+}

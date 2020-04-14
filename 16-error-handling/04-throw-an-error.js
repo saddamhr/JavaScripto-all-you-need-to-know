@@ -4,8 +4,12 @@ try {
     console.log('I am Line 2')
     console.log('I am Line 3')
     console.log('I am Line 4')
-} catch (e) {
-    console.log(e.message)
-} finally {
+} catch {
+    console.log('This is a custom error message')
+}
+//  catch (e) {
+//     console.log(e.message)
+// }
+ finally {
     console.log('I am finally block')
 }

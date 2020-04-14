@@ -1,0 +1,1 @@
+// https://medium.com/@rogercodes1/what-is-es6-ecmascript-6-the-standard-of-javascript-and-its-features-c05a7d2ccc9d

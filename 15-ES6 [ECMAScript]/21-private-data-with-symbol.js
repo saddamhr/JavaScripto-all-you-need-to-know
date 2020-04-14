@@ -1,7 +1,3 @@
-
-
-
-
 const _radius = Symbol()
 const _name = Symbol()
 const _draw = Symbol()

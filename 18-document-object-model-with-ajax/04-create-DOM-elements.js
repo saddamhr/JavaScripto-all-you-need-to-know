@@ -41,6 +41,21 @@ setTimeout(()=> {
 //     list.lastChild.remove()
 // }, 3000)
 
-let lastItem = list.lastElementChild.cloneNode(true)
-lastItem.innerHTML = 'Five'
-list.appendChild(lastItem)
+// let lastItem = list.lastElementChild.cloneNode(true)
+// lastItem.innerHTML = 'Five'
+// list.appendChild(lastItem)
+
+console.log(list.attributes)
+console.log(list.getAttributeNames())
+console.log(list.getAttributeNode('class'))
+console.log(list.getAttribute('id'))
+
+console.log(list.classList)
+
+lastItem.id = 'last-tem'
+lastItem.setAttribute('id', 'last-item')
+
+let attr = document.createAttribute('title')
+attr.value = 'I a title'
+
+lastItem.setAttribute(attr)

@@ -11,8 +11,13 @@ let div = createElement('div')
 append(div, [p1, p2])
 // console.log(div)
 
-let container = document.getElementById('cont')
-container.appendChild(div)
+// list.insertAdjacentElement('beforebegin', div)
+// list.insertAdjacentElement('afterbegin', div)
+// list.insertAdjacentElement('beforeend', div)
+// list.insertAdjacentElement('afterend', div)
+
+// let container = document.getElementById('cont')
+// container.appendChild(div)
 
 function createElement(tagName, className, innerHTML) {
     let tag = document.createElement(tagName)

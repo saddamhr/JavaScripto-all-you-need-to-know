@@ -29,3 +29,14 @@ function createElement(tagName, className, innerHTML) {
 function append(parent, children) {
     children.forEach(child=> parent.appendChild(child))
 }
+
+// Remove element and update
+let firstChild = list.firstElementChild
+setTimeout(()=> {
+    firstChild.innerHTML = firstChild.innerHTML + ' (Updated)'
+    firstChild.classList.add('text-success')
+}, 5000)
+
+setTimeout(()=>{
+    list.lastChild.remove()
+}, 3000)

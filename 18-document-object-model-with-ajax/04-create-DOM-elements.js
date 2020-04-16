@@ -37,6 +37,10 @@ setTimeout(()=> {
     firstChild.classList.add('text-success')
 }, 5000)
 
-setTimeout(()=>{
-    list.lastChild.remove()
-}, 3000)
+// setTimeout(()=>{
+//     list.lastChild.remove()
+// }, 3000)
+
+let lastItem = list.lastElementChild.cloneNode(true)
+lastItem.innerHTML = 'Five'
+list.appendChild(lastItem)

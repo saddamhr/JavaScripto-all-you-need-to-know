@@ -1,0 +1,14 @@
+1. jQuery
+Official Site: https://jquery.com/
+2. Lodash
+Official Site: https://lodash.com
+3. Underscore.js
+Official Site: https://underscorejs.org/
+4. Math.js
+Official Site: https://mathjs.org/
+5. Moment.js
+Official Site: https://momentjs.com/
+6. Collect.js
+Official Site: https://github.com/ecrmnn/collect.js/ or https://collect.js.org/
+7. Axios
+Official Site: https://github.com/axios/axios

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Form</title>
+</head>
+<body>
+    <div class="container" id='cont'>
+        <form id="form">
+            <label><strong>Please fill the form</strong></label>
+            <div class="form-group">
+                <label for="name">What is your name?</label>
+                <input type="text" name="name" id="name" class="form-control" placeholder="Name">
+                <div class="invalid-feedback">You must have to provide a name</div>
+            </div>
+            <div class="form-group">
+                <label for="email">What is your email?</label>
+                <input type="email" name="email" id="email" class="form-control" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <label for="password">Enter password?</label>
+                <input type="password" name="password" id="password" class="form-control" placeholder="Password">
+            </div>
+            <div class="form-group">
+                <label for="country">Select your country</label>
+                <select name="country" class="form-control" id="country">
+                    <option value="Bangladesh">Bangladesh</option>
+                    <option value="India">India</option>
+                    <option value="Sri Lanka">Sri Lanka</option>
+                    <option value="Pakistan">Pakistan</option>
+                </select>
+            </div>
+            <input type="submit" value="Submit" class="btn btn-primary">
+        </form>
+    </div>
+    <script src="08-handle-form-data-in-DOM.js"></script>
+</body>
+</html>
